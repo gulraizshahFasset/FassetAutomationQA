@@ -38,11 +38,14 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M7</version>
+        <version>3.1.2</version>
         <configuration>
           <excludes>
             <exclude>**/*ApiRunner*.java</exclude>
           </excludes>
+          <includes>
+            <include>**/JunitRunnerTest.java</include>
+          </includes>
           <testFailureIgnore>true</testFailureIgnore>
         </configuration>
       </plugin>
@@ -239,11 +242,6 @@
       <artifactId>karate-apache</artifactId>
       <version>0.9.6</version>
     </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>RELEASE</version>
-      <scope>test</scope>
-    </dependency>
+
   </dependencies>
 </project>
