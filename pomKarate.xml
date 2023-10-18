@@ -60,7 +60,7 @@
             <configuration>
               <projectName>qa-automation</projectName>
               <outputDirectory>src/test/Reports/</outputDirectory>
-              <cucumberOutput>target/cucumber.json</cucumberOutput>
+              <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
             </configuration>
           </execution>
         </executions>
