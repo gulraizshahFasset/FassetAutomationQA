@@ -1,0 +1,22 @@
+{
+  "CreateAccount": {
+    "ValidDetails": {
+      "first_name": "Auto",
+      "last_name":"Mation"
+    }
+  }
+,
+  "LoginCredentials":
+  {
+    "RegisteredUser_Login": {
+      "password": "123456",
+      "email": "fjk32@mailinator.com",
+      "loginVia": "EMAIL"
+    },
+    "InvalidUser_Login": {
+      "password": "123456",
+      "email": "dummyInvalid@mailinator.com",
+      "loginVia": "EMAIL"
+    }
+  }
+}

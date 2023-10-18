@@ -1,0 +1,20 @@
+{
+  "CreateAccount": {
+    "ValidDetails": {
+      "first_name": "Auto",
+      "last_name":"Mation"
+    }
+  }
+,
+  "LoginCredentials":
+  {
+    "RegisteredUser_Login": {
+      "email": "",
+      "password": ""
+    },
+    "InvalidUser_Login": {
+      "email": "",
+      "password": ""
+    }
+  }
+}
